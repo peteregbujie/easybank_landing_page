@@ -1,0 +1,15 @@
+.hero-bg {
+ background-color: var(--Light-Grayish-Blue);
+}
+
+.row-wrapper {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.hero-text {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+}
