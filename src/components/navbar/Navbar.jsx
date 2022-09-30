@@ -10,7 +10,7 @@ const Navbar = () => {
 
  return (
   <div className="header">
-   <div className="nav-container">
+   <nav className="nav-container">
     <img src={logo} alt="logo" />
     <ul className={click ? "nav-menu active" : "nav-menu"}>
      {navLinks.map((nav) => (
@@ -28,7 +28,7 @@ const Navbar = () => {
       <FaBars size={20} style={{ color: "#333" }} />
      )}
     </div>
-   </div>
+   </nav>
   </div>
  );
 };
