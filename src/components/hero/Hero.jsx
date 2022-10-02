@@ -5,7 +5,7 @@ import "./hero.css";
 const Hero = () => {
  return (
   <section className="row-wrapper hero-bg">
-   <div className="hero-left">
+   <div className="hero-left pd">
     <h2>
      Next generation
      <br /> <span>digital banking</span>
@@ -16,7 +16,7 @@ const Hero = () => {
     </p>
     <button className="btn">Request Invite</button>
    </div>
-   <div className="hero-right">
+   <div className="hero-right flx">
     <img src={mockup} alt="mockup" className="hero-image" />
    </div>
   </section>

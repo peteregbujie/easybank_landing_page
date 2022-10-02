@@ -1,0 +1,13 @@
+.featureCard {
+ display: flex;
+ flex-direction: column;
+ align-content: center;
+ justify-content: center;
+ row-gap: 20px;
+ margin-bottom: 3rem;
+}
+
+.featureCard img {
+ width: 60px;
+ height: auto;
+}
