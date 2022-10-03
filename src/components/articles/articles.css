@@ -1,0 +1,26 @@
+.bg-Gray {
+ background-color: var(--Very-Light-Gray);
+}
+
+section .heading {
+ display: flex;
+ align-content: center;
+ justify-content: flex-start;
+ margin-bottom: 3rem;
+}
+
+.paddingX {
+ padding-inline: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+ .articles {
+  display: grid;
+  column-gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  place-items: center;
+ }
+ .paddingX {
+  padding-inline: 0rem;
+ }
+}

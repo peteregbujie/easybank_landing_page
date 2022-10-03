@@ -1,10 +1,9 @@
 import "./App.css";
-import { Hero, Navbar } from "./components";
-import Features from "./components/features/Features";
+import { FeaturedArticles, FeaturedServices, Hero, Navbar } from "./components";
 
 function App() {
  return (
-  <div>
+  <div className="main">
    <head>
     <meta
      name="viewport"
@@ -13,7 +12,8 @@ function App() {
    </head>
    <Navbar />
    <Hero />
-   <Features />
+   <FeaturedServices />
+   <FeaturedArticles />
   </div>
  );
 }

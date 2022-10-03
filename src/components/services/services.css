@@ -11,21 +11,19 @@ section .features {
  margin-bottom: 3rem;
 }
 
-section .pd {
- padding-left: 2rem;
- padding-right: 2rem;
+section .paddingX {
+ padding-inline: 2rem;
 }
 
 @media only screen and (min-width: 768px) {
  section .services {
   display: grid;
-  column-gap: 2rem;
+  column-gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   place-items: center;
  }
 
- section .pd {
-  padding-left: 0rem;
-  padding-right: 0rem;
+ section .paddingX {
+  padding-inline: 0rem;
  }
 }
