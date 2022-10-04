@@ -10,9 +10,9 @@ const Navbar = () => {
 
  return (
   <div className="header">
-   <nav className="nav-container">
+   <nav className="nav__container">
     <img src={logo} alt="logo" />
-    <ul className={click ? "nav-menu active" : "nav-menu"}>
+    <ul className={click ? "nav__menu active" : "nav__menu"}>
      {navLinks.map((nav) => (
       <li key={nav.id}>
        <a href={`#${nav.id}`}>{nav.title}</a>
