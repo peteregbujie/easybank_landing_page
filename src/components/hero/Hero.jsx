@@ -2,7 +2,7 @@ import mockup from "../../assets/image-mockups.png";
 import "./hero.css";
 
 const Hero = () => (
- <section className="row-wrapper bg-gray">
+ <section className="hero__wrapper bg__gray">
   <div className="hero-left paddingX">
    <h2>
     Next generation

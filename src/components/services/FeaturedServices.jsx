@@ -4,8 +4,8 @@ import Service from "../service/Service";
 import "./services.css";
 
 const FeaturedServices = () => (
- <section className="bg-darker">
-  <div className="wrapper paddingX">
+ <section className="bg__darker">
+  <div className="section__wrapper paddingX">
    <div className="features">
     <h2>Why choose EasyBank?</h2>
     <p>

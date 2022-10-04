@@ -21,7 +21,6 @@ html {
 /*16px*/
 
 :root {
- --Mobile: 375px;
  --Desktop: 1440px;
  --Section-width: 1250px;
 
@@ -40,9 +39,6 @@ html {
  --Light-Grayish-Blue: hsl(220, 16%, 96%);
  --Very-Light-Gray: hsl(0, 0%, 98%);
  --White: hsl(0, 0%, 100%);
-
- /*Fonts*/
- --small-text: 0.875rem;
 
  --navbar-height: 90px;
 }
@@ -84,11 +80,6 @@ h5 {
  font-size: 1.25rem;
 }
 
-small,
-.text-small {
- font-size: var(--small-text);
-}
-
 a {
  text-decoration: none;
 }
@@ -104,7 +95,7 @@ ul {
  padding-right: 16px;
 }
 
-.wrapper {
+.section__wrapper {
  max-width: 1250px;
  padding-block: 4rem;
  margin-inline: auto;

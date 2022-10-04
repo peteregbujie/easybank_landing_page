@@ -1,9 +1,9 @@
 
-.bg-gray {
+.bg__gray {
  background-color: var(--Very-Light-Gray);
 }
 
-.row-wrapper {
+.hero__-wrapper {
  display: grid;
  grid-template-areas:
   "b"
