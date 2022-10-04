@@ -4,13 +4,12 @@ import Service from "../service/Service";
 import "./services.css";
 
 const FeaturedServices = () => (
- <section className="bg-2 ">
+ <section className="bg-darker">
   <div className="wrapper paddingX">
    <div className="features">
     <h2>Why choose EasyBank?</h2>
     <p>
      We leverage Open Banking to turn your bank account into your financial hub.
-     <br />
      Control your finances like never before.
     </p>
    </div>

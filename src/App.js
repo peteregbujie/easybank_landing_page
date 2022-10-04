@@ -1,19 +1,22 @@
 import "./App.css";
-import { FeaturedArticles, FeaturedServices, Hero, Navbar } from "./components";
+import {
+ FeaturedArticles,
+ FeaturedServices,
+ Footer,
+ Hero,
+ Navbar,
+} from "./components";
 
 function App() {
  return (
-  <div className="main">
-   <head>
-    <meta
-     name="viewport"
-     content="width=device-width, initial-scale=1, maximum-scale=1"
-    ></meta>
-   </head>
+  <div>
    <Navbar />
-   <Hero />
-   <FeaturedServices />
-   <FeaturedArticles />
+   <main>
+    <Hero />
+    <FeaturedServices />
+    <FeaturedArticles />
+   </main>
+   <Footer />
   </div>
  );
 }

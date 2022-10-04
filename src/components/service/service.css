@@ -1,13 +1,22 @@
 .featureCard {
  display: flex;
  flex-direction: column;
- align-content: center;
- justify-content: center;
+ align-items: center;
  row-gap: 20px;
- margin-bottom: 3rem;
+ margin-bottom: 2rem;
 }
 
 .featureCard img {
  width: 60px;
  height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+ .featureCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 20px;
+  margin-bottom: 2rem;
+ }
 }

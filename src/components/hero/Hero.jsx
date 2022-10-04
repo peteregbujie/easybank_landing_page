@@ -14,7 +14,7 @@ const Hero = () => (
    </p>
    <button className="btn">Request Invite</button>
   </div>
-  <div className="hero-right flx">
+  <div className="hero-right center__img">
    <img src={mockup} alt="mockup" className="hero-image" />
   </div>
  </section>

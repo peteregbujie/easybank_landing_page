@@ -1,0 +1,86 @@
+footer {
+ background-color: #2d314e;
+ color: #bfc2d1;
+}
+
+.footer__wrapper {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-block: 2rem;
+}
+
+.footer__menu {
+ display: flex;
+ flex-direction: column;
+}
+
+.col__one ul {
+ display: flex;
+ margin-top: 3.5rem;
+}
+ul li {
+ padding-bottom: 1rem;
+ text-align: center;
+}
+
+.col__one ul li {
+ padding-right: 1rem;
+}
+
+.col__four .btn-right {
+ margin-bottom: 1rem;
+ text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+ .footer__wrapper {
+  padding-block: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "a b c d";
+  max-width: var(--Section-width);
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+ }
+
+ .col__one {
+  grid-area: a;
+  grid-column: 1/2;
+  row-gap: 3rem;
+ }
+
+ .col__two {
+  grid-area: b;
+  grid-column: 2/3;
+ }
+
+ .col__three {
+  grid-area: c;
+  grid-column: 3/4;
+ }
+
+ .col__four {
+  grid-area: d;
+  grid-column: 4/6;
+  justify-self: center;
+ }
+
+ .col__four {
+  grid-area: d;
+  grid-column: 4/6;
+  justify-self: end;
+ }
+
+ .col__four .btn-right {
+  margin-bottom: 1rem;
+  text-align: right;
+ }
+
+ ul li {
+  padding-bottom: 1rem;
+  text-align: start;
+ }
+}

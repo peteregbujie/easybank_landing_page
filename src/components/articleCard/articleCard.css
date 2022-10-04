@@ -1,10 +1,11 @@
 .card {
  display: flex;
  flex-direction: column;
+ align-self: start;
  overflow: hidden;
  background: var(--White);
  row-gap: 20px;
- margin-bottom: 3rem;
+ margin-bottom: 2rem;
  border-radius: 5px;
 }
 
@@ -12,6 +13,7 @@
  max-width: 100%;
  display: block;
  object-fit: cover;
+ height: 200px;
 }
 .card__body {
  padding: 1rem 1.5rem;
@@ -22,7 +24,7 @@
 
 .tag {
  align-self: flex-start;
- padding: 0.25em 0.75em;
+ padding-block: 0.25em;
  border-radius: 1em;
  font-size: 0.75rem;
 }
