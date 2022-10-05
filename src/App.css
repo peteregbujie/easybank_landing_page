@@ -25,7 +25,6 @@ body {
 }
 
 :root {
- --Desktop: 1440px;
  --Section-width: 1250px;
 
  /*Colors*/
@@ -91,13 +90,9 @@ ul {
  list-style: none;
 }
 
-.container {
- display: flex;
- direction: column;
+section {
  max-width: 100vw;
- margin-inline: auto;
 }
-
 .section__wrapper {
  max-width: 1250px;
  padding-block: 4rem;
@@ -115,8 +110,4 @@ ul {
  );
  color: var(--White);
  font-weight: bold;
-}
-
-section {
- max-width: 100vw;
 }
