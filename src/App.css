@@ -102,12 +102,15 @@ section {
 .btn {
  border-radius: 20px;
  border: 0px;
- padding: 12px 25px;
+ padding: 8px 20px;
  background-image: linear-gradient(
   to right,
   var(--Lime-Green),
   var(--Bright-Cyan)
  );
  color: var(--White);
+ font-size: 1.1rem;
+ cursor: pointer;
  font-weight: bold;
+ text-align: center;
 }

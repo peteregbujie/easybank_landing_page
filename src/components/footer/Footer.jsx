@@ -6,6 +6,7 @@ import {
  twitter,
  youtube,
 } from "../../assets";
+import Button from "../Button";
 import "./footer.css";
 
 function Footer() {
@@ -50,7 +51,7 @@ function Footer() {
     <div className="col__four .footer__menu">
      <div className="btn-right">
       {" "}
-      <button className="btn">Request Invite</button>
+      <Button text="Request Invite" />
      </div>
 
      <p>&copy; Easybank. All Rights Reserved</p>

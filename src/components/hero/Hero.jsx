@@ -1,4 +1,5 @@
 import mockup from "../../assets/image-mockups.png";
+import Button from "../Button";
 import "./hero.css";
 
 const Hero = () => (
@@ -13,7 +14,7 @@ const Hero = () => (
      Take your financial life online. Your EasyBank account will be a one-stop
      shop fore spending, saving budgeting, investing and much more.
     </p>
-    <button className="btn">Request Invite</button>
+    <Button text="Request Invite" />
    </div>
 
    <div className="hero__right center__img">

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../assets/logo.svg";
 import { navLinks } from "../../constants";
+import Button from "../Button";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
       </li>
      ))}
     </ul>
-    <button className="btn">Request Invite</button>
+    <Button text="Request Invite" />
 
     <div className="hamburger" onClick={handleClick}>
      {click ? (
